@@ -225,12 +225,15 @@ if (command === 'earth') {
 
   const limitedItems = items.slice(0, 3);
   for (const item of limitedItems) {
-    const imageLink = item.links?.find(link => link.rel === 'preview')?.href;
+    const imageLinkRaw = item.links?.find(link => link.rel === 'preview')?.href;
     const data = item.data?.[0];
     const title = data?.title || 'NASA Image';
     const description = data?.description || 'No description available';
 
-    if (!imageLink) continue;
+    if (!imageLinkRaw) continue;
+
+    // Encode URL to fix spaces and special characters
+    const imageLink = encodeURI(imageLinkRaw);
 
     const embed = new EmbedBuilder()
       .setTitle(title)

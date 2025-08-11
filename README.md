@@ -1,6 +1,24 @@
-# 🚀 अन्तरिक्ष Discord Bot 🌌
+<!-- Bot Logo and Title Section -->
+<div align="center" style="margin-bottom: 20px;">
+  <table style="border: none; background: transparent;">
+    <tr>
+      <td style="border: none; background: transparent; vertical-align: middle; padding-right: 24px;">
+        <img src="logo.png" alt="Bot Logo" width="120" style="border-radius: 50%; box-shadow: 0 4px 16px rgba(0,0,0,0.15); border: 4px solid #222; background: #fff;"/>
+      </td>
+      <td style="border: none; background: transparent; vertical-align: middle;">
+        <div style="text-align: left;">
+          <span style="font-size: 2.2em; font-weight: bold; color: #3b82f6; font-family: 'Segoe UI', 'Arial', sans-serif; letter-spacing: 1px;">🚀 अन्तरिक्ष Discord Bot 🌌</span>
+          <br/>
+          <span style="font-size: 1.1em; color: #555; font-style: italic;">Explore the universe, one command at a time.</span>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Welcome to अन्तरिक्ष, your friendly  Discord bot for all things space! 🌠 This bot brings the wonders of the universe right to your server, providing stunning images, fascinating facts, and the latest space weather updates from NASA's extensive archives.
+<!-- Description -->
+
+Welcome to <b>अन्तरिक्ष</b>, your friendly Discord bot for all things space! 🌠 This bot brings the wonders of the universe right to your server, providing stunning images, fascinating facts, and the latest space weather updates from NASA's extensive archives.
 
 ## ✨ Features
 
@@ -81,15 +99,19 @@ Here's a list of all the available commands:
 
 **Astronomy Picture of the Day:**
 
+![APOD Screenshot](readmeimg/apod.png)
 
 **Mars Rover Photos:**
 
+![Mars Rover Screenshot](readmeimg/marsrover.png)
 
 **Earth Image Search:**
 
+![Earth Image Search Screenshot](readmeimg/earthimage.png)
 
 **Help Command:**
 
+![Help Command Screenshot](readmeimg/rename.png)
 
 ---
 
